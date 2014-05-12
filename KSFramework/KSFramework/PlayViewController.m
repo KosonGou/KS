@@ -44,8 +44,6 @@
     [btn addTarget:self action:@selector(BtnActin) forControlEvents:UIControlEventTouchUpInside];
     [btn setTitle:@"showPlayer" forState:UIControlStateNormal];
     [self.view addSubview:btn];
-	// Do any additional setup after loading the view.
-
 }
 
 

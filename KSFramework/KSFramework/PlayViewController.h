@@ -26,7 +26,15 @@ typedef NS_ENUM(NSInteger, PlaySource){
 @property (nonatomic,strong)MPMoviePlayerViewController *mpMovie;
 @property (nonatomic,strong)AVAudioPlayer *audioPlayer;
 @property (nonatomic,strong)AVPlayer *avPlayer;
-
+/**
+ *  player method
+ *
+ *  @param pathUrl  <#pathUrl description#>
+ *  @param fileName <#fileName description#>
+ *  @param souce    <#souce description#>
+ */
 -(void)playWithUrl:(NSString *)pathUrl orFileName:(NSString *)fileName playSouceFrom:(PlaySource)souce;
+
+
 
 @end
