@@ -25,4 +25,6 @@
  */
 - (void)sayHello:(NSString *)hello;
 
+- (void)sayHi:(NSString *)hi;
+
 @end

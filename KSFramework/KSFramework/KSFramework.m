@@ -18,4 +18,12 @@
     
 }
 
+- (void)sayHi:(NSString *)hi
+{
+
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"You say:%@",hi] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+    
+}
+
 @end
